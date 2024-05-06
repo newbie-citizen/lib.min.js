@@ -1,0 +1,10 @@
+{
+"name": "lib.min.js",
+"version": "14.0.0-2",
+"description": "",
+"main": "package.js",
+"dependencies": {
+	"axios": "^1.6.8",
+	"appwrite": "^14.0.1"
+	}
+}
