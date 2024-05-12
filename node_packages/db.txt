@@ -1,0 +1,43 @@
+Account
+
+Content
+	title string 1024
+	sub_title string 1024
+	header string 4096
+	data string 1048576
+	meta string 1048576
+	tag string [] 1024
+	categories string [] 1024
+
+Categories
+	parent string 128
+	name string 255
+
+Router
+	name string 255
+	type string 24
+	url string 1024
+	uri string [] 1024
+	path string 1024
+	content string 128
+	theme string 255 default {}
+
+Setting
+	key string 255 require
+	value string 1048576
+
+Visitor
+	ip
+	country string 255
+	region string 255
+	city string 255
+	data string 1048576
+
+Geo Location
+	ip
+	country string 255
+	region string 255
+	city string 255
+	data string 1048576
+
+#

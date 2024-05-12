@@ -1,0 +1,6 @@
+{
+"data": [
+	{"ip": {"address": "180.242.19.101", "network": "180.242.16.0/20"}, "internet": {"service": {"name": "PT Telekomunikasi Indonesia", "provider": ""}}, "country": {"code": "ID"}, "region": {"code": "SS", "name": "South Sumatra"}, "city": {"code": "", "name": "Palembang"}, "coordinate": {"latitude": -2.9146, "longitude": 104.7535}, "timezone": {"code": "Asia/Jakarta", "offset": "+07:00"}},
+	{"ip": {"address": "0.0.0.0", "network": "0.0.0.0/0"}, "internet": {"service": {"name": "", "provider": ""}}, "country": {"code": ""}, "region": {"code": "", "name": ""}, "city": {"code": "", "name": ""}, "coordinate": {"latitude": 0, "longitude": 0}, "timezone": {"code": "", "offset": ""}}
+	]
+}

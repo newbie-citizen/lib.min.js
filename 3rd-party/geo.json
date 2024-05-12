@@ -1,0 +1,35 @@
+{
+"country": {
+	"data": [
+		{"id": "32984734576347587874", "code": "ID", "name": "Indonesia", "capital": {"id": "", "code": "JKT", "name": "Jakarta", "coordinate": {"latitude": 0, "longitude": 0}}, "region": {"data": {}, "city": {"data": {}}}, "coordinate": {"latitude": 0, "longitude": 0}, "currency": {"id": "02398482364652653637", "code": "IDR", "name": "Rupiah"}, "population": 267663435, "language": ["id", "en"], "domain": [".id", ".my.id", ".co.id", ".go.id", ".or.id", ".web.id", ".ponpes.id"], "image": []},
+		{"id": "12038879234762337466", "code": "US", "name": "United State", "capital": {"id": "", "code": "WDC", "name": "Washington DC", "coordinate": {"latitude": 0, "longitude": 0}}, "region": {"data": {}, "city": {"data": {}}}, "coordinate": {"latitude": 0, "longitude": 0}, "currency": {"id": "12938029347872364373", "code": "USD", "name": "Dollar"}, "population": 0, "language": ["en"], "domain": [], "image": []},
+		{"id": "", "code": "", "name": "", "capital": {"code": "", "name": "", "coordinate": {"latitude": 0, "longitude": 0}}, "region": {"data": {}, "city": {"data": {}}}, "coordinate": {"latitude": 0, "longitude": 0}, "currency": {"id": "", "code": "", "name": ""}, "population": 0, "language": [], "domain": [], "image": []}
+		],
+	"region": {
+		"data": [
+			{"id": "01293773646546546839", "country": "32984734576347587874", "code": "NAD", "name": "Nanggroe Aceh Darussalam", "coordinate": {"latitude": 0, "longitude": 0}, "population": 0, "language": [], "image": []},
+			{"id": "12984379236479384678", "country": "32984734576347587874", "code": "SU", "name": "North Sumatra", "coordinate": {"latitude": 0, "longitude": 0}, "population": 0, "language": [], "image": []},
+			{"id": "12378937466534634582", "country": "32984734576347587874", "code": "SS", "name": "South Sumatra", "coordinate": {"latitude": 0, "longitude": 0}, "population": 0, "language": [], "image": []},
+			{"id": "", "country": "", "code": "", "name": "", "coordinate": {"latitude": 0, "longitude": 0}, "population": 0, "language": [], "image": []}
+			],
+		"city": {
+			"data": [
+				{"id": "42983746236479470182", "country": "32984734576347587874", "region": "01293773646546546839", "code": "BA", "name": "Banda Aceh", "coordinate": {"latitude": 0, "longitude": 0}, "population": 0, "language": ["local", "id"], "image": []},
+				{"id": "23947736727318248039", "country": "32984734576347587874", "region": "12984379236479384678", "code": "MDN", "name": "Medan", "coordinate": {"latitude": 0, "longitude": 0}, "population": 0, "language": ["local", "id"], "image": []},
+				{"id": "", "country": "", "region": "", "code": "", "name": "", "coordinate": {"latitude": 0, "longitude": 0}, "population": 0, "language": [], "image": []}
+				]
+			}
+		}
+	},
+"timezone": [
+	{"id": "120938782374663546554", "code": "Asia/Jakarta", "name": "WIB", "offset": "+07:00"},
+	{"id": "", "code": "", "name": "", "offset": "+00:00"}
+	],
+"currency": [
+	{"id": "12938029347872364373", "code": "USD", "name": "US Dollar", "exchange": [{"id": "12938029347872364373", "value": 1}]},
+	{"id": "02398482364652653637", "code": "IDR", "name": "Rupiah", "exchange": [{"id": "12938029347872364373", "value": 15123}]},
+	{"id": "74363458374657640437", "code": "MYR", "name": "Ringgit", "exchange": [{"id": "12938029347872364373", "value": 0}]},
+	{"id": "32487684569284087346", "code": "SGD", "name": "Singapore Dollar", "exchange": [{"id": "12938029347872364373", "value": 0}]},
+	{"id": "", "code": "", "name": "", "exchange": [{"id": "", "value": 0}]}
+	]
+}

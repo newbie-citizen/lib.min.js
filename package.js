@@ -1,11 +1,8 @@
 require ("./library");
-var $$$ = {
-	crypto: require ("crypto"),
-	axios: require ("axios"),
-	appwrite: require ("appwrite"),
-	}
 
-Symbol.$$$.hash.crypto = $$$.crypto;
-Symbol.$$$.url.engine = $$$.axios;
+Symbol.$$$.path.require ();
+Symbol.$$$.fs.require ();
+Symbol.$$$.url.require ();
+Symbol.$$$.hash.crypto = require ("crypto");
 
 module.exports = exports = Symbol.$$$;
