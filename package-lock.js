@@ -5,7 +5,5 @@ lib.path.api ()
 lib.fs.api ()
 lib.url.api ()
 lib.hash.crypto.api ()
-lib.ip.initialize ("default")
-lib.geo.initialize ("default")
 
 define (module).export (lib)
