@@ -1,9 +1,9 @@
 {
 "name": "lib.min.js",
-"version": "15.0.0-3",
+"version": "15.0.0-4",
 "description": "",
 "main": "package.js",
 "dependencies": {
-	"library.min.js": "^15.0.0-3"
+	"library.min.js": "^15.0.0-4"
 	}
 }
