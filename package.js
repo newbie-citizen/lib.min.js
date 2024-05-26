@@ -2,6 +2,7 @@ var lib = require ("library.min.js/module")
 const {define} = lib
 
 lib.path.api ()
+lib.path.regex.api ()
 lib.path.separator (lib.path.api.engine.sep)
 lib.fs.api ()
 lib.url.api ()
