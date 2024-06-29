@@ -9,4 +9,6 @@ lib.path.regex.require (pathToRegexp, match, parse, compile);
 var {Client, Databases, Query, ID} = lib.appwrite.require ();
 lib.appwrite.require (Client, Databases, Query, ID);
 
+lib.mongo.api ();
+
 module.exports = exports = lib;

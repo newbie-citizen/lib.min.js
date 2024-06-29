@@ -1,10 +1,10 @@
-var lib = require ("library.min.js/module")
+var lib = require ("library.min.js/src")
 const {define} = lib
 
 lib.path.api ()
 lib.path.regex.api ()
 lib.path.separator (lib.path.api.engine.sep)
-lib.fs.api ()
+lib.file.system.api ()
 lib.url.api ()
 lib.hash.crypto.api ()
 lib.ip.initialize ("default"), lib.ip.initialize ()
